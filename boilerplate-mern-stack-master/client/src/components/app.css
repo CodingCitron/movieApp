@@ -1,0 +1,16 @@
+.base{
+    min-height: calc(100vh - 80px);
+    padding-top: 69px;
+}
+
+/*
+paddingTop: '69px', minHeight: 'calc(100vh - 80px)'
+
+*/
+
+@media screen and (max-width : 767px){
+    .base{
+        min-height: calc(100vh - 80px);
+        padding-top: 51px;
+    }
+}
