@@ -4,12 +4,6 @@ import Axios from 'axios'
 
 export default function Favorite(props){
     
-    const movieId = props.movieId
-    const userFrom = props.userFrom
-    const movieTitle = props.movieInfo.title
-    const moviePost = props.movieInfo.backdrop_path
-    const movieRunTime = props.movieInfo.runtime
-
     const [FavoriteNumber, setFavoriteNumber] = useState(0)
     const [Favorited, setFavorited] = useState(false)
     let variables = {
